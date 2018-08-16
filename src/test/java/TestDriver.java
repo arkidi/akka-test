@@ -30,6 +30,7 @@ public class TestDriver {
     public void should_akka_statemachine() throws InterruptedException {
         ActorRef ping = actorSystem.actorOf(Props.create(PingActor.class), "pingActor");
         ping.tell("work", ActorRef.noSender());
+        ping.tell("work", ActorRef.noSender());
         ping.tell("reset", ActorRef.noSender());
         Thread.sleep(10000);
     }
