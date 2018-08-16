@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea9bdcf-80b0-458b-b7f1-56dafc48ae4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/ch5/actor/Ping1Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/ch5/actor/Ping2Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/ch5/actor/Ping3Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/study/ch5/actor/PingActor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_11_2_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/akka-java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/study/ch2/actor/PingActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/study/ch2/actor/PingActor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +23,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="8" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="java" value="19" />
           <entry key="md" value="1" />
           <entry key="xml" value="4" />
@@ -53,21 +34,22 @@
           <entry key="CLASS" value="8" />
           <entry key="JAVA" value="19" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="8" />
+          <entry key="gitignore" value="9" />
           <entry key="java" value="2460" />
+          <entry key="txt" value="18" />
           <entry key="xml" value="221" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2460" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="PLAIN_TEXT" value="27" />
           <entry key="XML" value="221" />
         </counts>
       </usages-collector>
@@ -80,8 +62,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/TestDriver.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="228">
-                  <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+                <state relative-caret-position="255">
+                  <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#1573#1574#0" expanded="true" />
@@ -91,68 +73,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/org/study/ch5/actor/Ping1Actor.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/org/study/ch5/actor/Ping2Actor.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/org/study/ch5/actor/Ping3Actor.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-testkit_2.12/2.5.14/akka-testkit_2.12-2.5.14.jar!/akka/testkit/TestKitExtension$.class">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="302">
-                  <caret line="40" selection-start-line="40" selection-end-line="40" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/org/study/ch5/actor/PingActor.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" selection-start-line="10" selection-end-line="10" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pom.xml">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+                <state>
+                  <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -164,7 +89,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/TestDriver.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
+                <state relative-caret-position="296">
                   <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -200,7 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/org/study/ch5/actor/Ping2Actor.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/study/ch5/actor/Ping3Actor.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/study/ch5/Main.java" />
@@ -208,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/main/java/org/study/ch5/actor/PingActor.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/study/ch5/actor/Ping1Actor.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -225,8 +150,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
-    <option name="y" value="26" />
+    <option name="x" value="347" />
+    <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="883" />
   </component>
@@ -277,54 +202,6 @@
             </path>
             <path>
               <item name="akka-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akka-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akka-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akka-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akka-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akka-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akka-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akka-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akka-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akka-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="actor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akka-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akka-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akka-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akka-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akka-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -338,7 +215,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534403389046" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534404059888" />
     <property name="last_opened_file_path" value="$USER_HOME$/Project" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -460,20 +337,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534394110085</updated>
-      <workItem from="1534394112970" duration="9020000" />
+      <workItem from="1534394112970" duration="9775000" />
     </task>
+    <task id="LOCAL-00001" summary="stateMachine 추가">
+      <created>1534403577476</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534403577476</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDriver_should_akka_statemachine - 2018.08.16 at 15h 10m 17s.xml">
-      <configuration name="TestDriver.should_akka_statemachine" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDriver_should_akka_statemachine - 2018.08.16 at 15h 19m 30s.xml">
-      <configuration name="TestDriver.should_akka_statemachine" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDriver_should_akka_statemachine - 2018.08.16 at 15h 26m 26s.xml">
-      <configuration name="TestDriver.should_akka_statemachine" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestDriver_should_akka_statemachine - 2018.08.16 at 15h 27m 09s.xml">
       <configuration name="TestDriver.should_akka_statemachine" configurationId="JUnit" />
     </history-entry>
@@ -495,12 +371,21 @@
     <history-entry file="TestDriver_should_akka_statemachine - 2018.08.16 at 16h 06m 29s.xml">
       <configuration name="TestDriver.should_akka_statemachine" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestDriver_should_akka_statemachine - 2018.08.16 at 16h 09m 03s.xml">
+      <configuration name="TestDriver.should_akka_statemachine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDriver_should_akka_statemachine - 2018.08.16 at 16h 09m 25s.xml">
+      <configuration name="TestDriver.should_akka_statemachine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDriver_should_akka_statemachine - 2018.08.16 at 16h 09m 40s.xml">
+      <configuration name="TestDriver.should_akka_statemachine" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9020000" />
+    <option name="totallyTimeSpent" value="9775000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="347" y="23" width="1920" height="883" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -508,10 +393,10 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28487754" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22364217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="SBT Console" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3294271" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.36979166" />
@@ -519,7 +404,7 @@
       <window_info anchor="bottom" id="Regex Tester" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26545087" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34114584" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -541,18 +426,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="stateMachine 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="stateMachine 추가" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/org/study/ch2/actor/PingActor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -639,6 +521,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/study/ch5/actor/PingActor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -681,8 +570,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        <state relative-caret-position="255">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1573#1574#0" expanded="true" />
@@ -691,10 +580,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
