@@ -12,6 +12,7 @@ import akka.event.LoggingAdapter;
  **/
 public class PingActor extends UntypedActor{
 
+
     private LoggingAdapter log = Logging.getLogger(getContext().system(), this);
     private ActorRef child;
     private int count = 0;
