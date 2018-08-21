@@ -10,6 +10,8 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.study.ch5.actor.PingActor;
 import org.study.ch6.actor.PingActorWithoutRouter;
+import org.study.ch7.actor.BlockingActor;
+import org.study.ch7.actor.NonblockingActor;
 
 public class TestDriver {
     public static ActorSystem actorSystem;
@@ -47,8 +49,26 @@ public class TestDriver {
     @Test
     @DisplayName("Router 제외 버전 테스트")
     public void should_akka_without_router() throws InterruptedException {
-        ActorRef ping  = actorSystem.actorOf(Props.create(PingActorWithoutRouter.class), "PingActorWithoutRouter");
+        ActorRef ping  = actorSystem.actorOf(Props.create(PingActorWithoutRouter.class), "pingActorWithoutRouter");
         ping.tell("start", ActorRef.noSender());
+        Thread.sleep(10000);
+    }
+
+    @Test
+    @DisplayName("Future 블록킹 테스트")
+    public void should_akka_Blocking() throws InterruptedException {
+        ActorRef blockingActor = actorSystem.actorOf(Props.create(BlockingActor.class), "blockingActor");
+        blockingActor.tell(10, ActorRef.noSender());
+        blockingActor.tell("hello", ActorRef.noSender());
+        Thread.sleep(10000);
+    }
+
+    @Test
+    @DisplayName("Future 논블록킹 테스트")
+    public void should_akka_Nonblocking() throws InterruptedException {
+        ActorRef blockingActor = actorSystem.actorOf(Props.create(NonblockingActor.class), "nonBlockingActor");
+        blockingActor.tell(10, ActorRef.noSender());
+        blockingActor.tell("hello", ActorRef.noSender());
         Thread.sleep(10000);
     }
 
